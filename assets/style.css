@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&family=Fascinate&family=Ubuntu&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Akaya+Telivigala&family=Fascinate&family=Ubuntu&display=swap");
 
 body {
-  font-family: 'Ubuntu', sans-serif;;
+  font-family: "Ubuntu", sans-serif;
   font-size: 16px;
   line-height: 1;
   background-color: coral;

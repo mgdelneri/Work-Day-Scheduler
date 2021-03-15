@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&family=Fascinate&family=Ubuntu&display=swap');
+
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Ubuntu', sans-serif;;
   font-size: 16px;
   line-height: 1;
   background-color: coral;
@@ -29,11 +31,16 @@ textarea {
   font-weight: bold;
 }
 
-.description{
+.description {
   white-space: pre-wrap;
 }
 
-.time-block{
+.container {
+  position: relative;
+  height: 130px;
+}
+
+.time-block {
   color: rgb(42, 30, 203);
   font-weight: bolder;
   text-align: center;
@@ -44,7 +51,7 @@ textarea {
 
 .row {
   white-space: pre-wrap;
-  height: 80px;
+  height: 70px;
 }
 
 .hour {
@@ -72,13 +79,18 @@ textarea {
 
 .saveBtn {
   border-left: 1px solid black;
-  border-top-right-radius: 15px;
-  border-bottom-right-radius: 15px;
-  background-color: #06AED5;
-  color: white;
+  border-radius: 15px;
+  background-color: rgb(42, 30, 203);
+  color: coral;
+  height: 40px;
+  position: absolute;
+  bottom: 0;
+  margin-bottom: 35px;
+  right: 8px;
+  z-index: 2;
 }
 
 .saveBtn i:hover {
   font-size: 20px;
-  transition: all .3s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }

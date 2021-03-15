@@ -23,9 +23,9 @@ var btn6pm = document.querySelector("#btn6pm");
 var input7pm = document.querySelector("#stuff7pm");
 var btn7pm = document.querySelector("#btn7pm");
 
-// Displays today's date in the header
+// Displays today's date and time in the header
 $("#currentDay").text(
-  today.format("dddd") + ", " + today.format("MMMM Do, YYYY")
+    today.format("LLLL")
 );
 
 // Get input items from local storage for each time slot when page is opened/refreshed

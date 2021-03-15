@@ -5,7 +5,7 @@ body {
   background-color: coral;
 }
 
-textarea{
+textarea {
   background: transparent;
   border: none;
   resize: none;
@@ -24,7 +24,7 @@ textarea{
 }
 
 #currentDay {
-  padding-top: 35px;
+  padding-top: 40px;
   font-size: xx-large;
   font-weight: bold;
 }
@@ -34,22 +34,25 @@ textarea{
 }
 
 .time-block{
+  color: rgb(42, 30, 203);
+  font-weight: bolder;
   text-align: center;
+  font-size: x-large;
   border-radius: 15px;
   margin-bottom: 15px;
 }
 
 .row {
   white-space: pre-wrap;
-  height: 100px;
+  height: 80px;
 }
 
 .hour {
   background-color: #ffffff;
   color: rgb(42, 30, 203);
-  font-weight: bolder;
   border: 2px dashed rgb(42, 30, 203);
   padding-top: 7px;
+  text-align: left;
 }
 
 .past {

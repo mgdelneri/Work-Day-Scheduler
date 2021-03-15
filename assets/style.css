@@ -55,26 +55,25 @@ textarea {
 }
 
 .hour {
-  background-color: #ffffff;
   color: rgb(42, 30, 203);
   border: 2px dashed rgb(42, 30, 203);
   padding-top: 7px;
   text-align: left;
 }
 
-.past {
-  background-color: #d3d3d3;
-  color: white;
+#past {
+  background-color: #c9b1b1;
+  color: rgb(42, 30, 203);
 }
 
-.present {
-  background-color: #ff6961;
-  color: white;
+#present {
+  background-color: #d2ff55;
+  color: rgb(42, 30, 203);
 }
 
-.future {
-  background-color: #77dd77;
-  color: white;
+#future {
+  background-color: #47c447;
+  color: rgb(42, 30, 203);
 }
 
 .saveBtn {

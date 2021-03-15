@@ -1,3 +1,11 @@
+var today = moment();
+$("#currentDay").text(today.format("dddd") + ", " + today.format("MMMM Do, YYYY"));
+
+
+
+
+
+
 // TODO: Show the day at the top of the page
 // TODO: Use Bootstrap to make the calendar slots
 // TODO: Put time on each of the slots

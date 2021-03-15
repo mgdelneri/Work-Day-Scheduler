@@ -23,6 +23,12 @@ textarea{
   background-color: rgb(42, 30, 203);
 }
 
+#currentDay {
+  padding-top: 35px;
+  font-size: xx-large;
+  font-weight: bold;
+}
+
 .description{
   white-space: pre-wrap;
 }
